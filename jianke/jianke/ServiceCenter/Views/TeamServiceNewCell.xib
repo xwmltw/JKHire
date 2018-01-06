@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="137" id="KGk-i7-Jjw" customClass="TeamServiceNewCell">
+            <rect key="frame" x="0.0" y="0.0" width="422" height="137"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="422" height="136"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dlQ-8p-gXd">
+                        <rect key="frame" x="8" y="0.0" width="406" height="137"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="team_service_center_right" highlightedImage="team_service_center_right" translatesAutoresizingMaskIntoConstraints="NO" id="ocT-IS-tdk">
+                                <rect key="frame" x="281" y="62" width="117" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="I9V-lf-zPp"/>
+                                    <constraint firstAttribute="width" constant="117" id="u0b-tF-BDl"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="team_service_center_left" highlightedImage="team_service_center_left" translatesAutoresizingMaskIntoConstraints="NO" id="1PQ-Pj-DOV">
+                                <rect key="frame" x="0.0" y="54" width="188" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="188" id="ZXU-vk-2L6"/>
+                                    <constraint firstAttribute="height" constant="29" id="fM4-Ra-ehD"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.96862745100000003" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ocT-IS-tdk" secondAttribute="trailing" constant="8" id="BXs-vY-FKQ"/>
+                            <constraint firstItem="1PQ-Pj-DOV" firstAttribute="leading" secondItem="dlQ-8p-gXd" secondAttribute="leading" id="CRa-ix-q8f"/>
+                            <constraint firstItem="ocT-IS-tdk" firstAttribute="centerY" secondItem="dlQ-8p-gXd" secondAttribute="centerY" id="DLe-zi-WDQ"/>
+                            <constraint firstItem="1PQ-Pj-DOV" firstAttribute="centerY" secondItem="dlQ-8p-gXd" secondAttribute="centerY" id="cj2-YR-ZHV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="dlQ-8p-gXd" secondAttribute="trailing" constant="8" id="Amw-8b-Eu7"/>
+                    <constraint firstItem="dlQ-8p-gXd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="WU9-ZI-Cyh"/>
+                    <constraint firstItem="dlQ-8p-gXd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="cC0-iH-Q7E"/>
+                    <constraint firstAttribute="bottom" secondItem="dlQ-8p-gXd" secondAttribute="bottom" id="x3L-uI-SNb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="-66" y="-89.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="team_service_center_left" width="147" height="29"/>
+        <image name="team_service_center_right" width="117" height="13"/>
+    </resources>
+</document>

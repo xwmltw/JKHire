@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="63" id="KGk-i7-Jjw" customClass="BuyApplyNum_Cell">
+            <rect key="frame" x="0.0" y="0.0" width="349" height="63"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="349" height="62.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UiP-Hi-0nw">
+                        <rect key="frame" x="12" y="1" width="325" height="61"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCb-Fh-rz4">
+                                <rect key="frame" x="12" y="19.5" width="44" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.1333333333" green="0.2274509804" blue="0.31372549020000001" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pVH-Nv-F0p">
+                                <rect key="frame" x="122.5" y="20.5" width="40" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="1" green="0.3803921569" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pyD-s9-URD">
+                                <rect key="frame" x="241" y="22.5" width="36" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.4431372549" green="0.50196078430000002" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4yi-Cd-tkq">
+                                <rect key="frame" x="285" y="16.5" width="28" height="28"/>
+                                <state key="normal" image="card_icon_select_black_0"/>
+                                <state key="selected" backgroundImage="card_icon_select_black_1"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1333333333" green="0.2274509804" blue="0.31372549020000001" alpha="0.029999999999999999" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="PCb-Fh-rz4" firstAttribute="leading" secondItem="UiP-Hi-0nw" secondAttribute="leading" constant="12" id="50E-RC-hVN"/>
+                            <constraint firstItem="PCb-Fh-rz4" firstAttribute="centerY" secondItem="UiP-Hi-0nw" secondAttribute="centerY" id="GrT-gM-pgd"/>
+                            <constraint firstItem="pyD-s9-URD" firstAttribute="trailing" secondItem="4yi-Cd-tkq" secondAttribute="leading" constant="-8" id="V2t-Nn-C0j"/>
+                            <constraint firstAttribute="trailing" secondItem="4yi-Cd-tkq" secondAttribute="trailing" constant="12" id="Wyw-lW-Jdl"/>
+                            <constraint firstItem="pVH-Nv-F0p" firstAttribute="centerY" secondItem="PCb-Fh-rz4" secondAttribute="centerY" id="do6-U0-EM2"/>
+                            <constraint firstItem="pyD-s9-URD" firstAttribute="centerY" secondItem="4yi-Cd-tkq" secondAttribute="centerY" id="f0q-jF-Uve"/>
+                            <constraint firstItem="pVH-Nv-F0p" firstAttribute="centerX" secondItem="UiP-Hi-0nw" secondAttribute="centerX" constant="-20" id="uNF-rv-bn8"/>
+                            <constraint firstItem="4yi-Cd-tkq" firstAttribute="centerY" secondItem="UiP-Hi-0nw" secondAttribute="centerY" id="vRC-VJ-XbA"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="UiP-Hi-0nw" secondAttribute="trailing" constant="12" id="Kur-3M-Vd0"/>
+                    <constraint firstAttribute="bottom" secondItem="UiP-Hi-0nw" secondAttribute="bottom" constant="1" id="TmH-7L-Ryx"/>
+                    <constraint firstItem="UiP-Hi-0nw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="1" id="VTA-Sd-uz0"/>
+                    <constraint firstItem="UiP-Hi-0nw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="n20-tv-JkF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnSelected" destination="4yi-Cd-tkq" id="Gv9-fj-rsB"/>
+                <outlet property="labPerPrice" destination="pyD-s9-URD" id="ZMg-JD-0G5"/>
+                <outlet property="labPrice" destination="pVH-Nv-F0p" id="Xm2-FU-SWt"/>
+                <outlet property="labTitle" destination="PCb-Fh-rz4" id="iUX-Lw-aVY"/>
+            </connections>
+            <point key="canvasLocation" x="39.5" y="61.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="card_icon_select_black_0" width="28" height="28"/>
+        <image name="card_icon_select_black_1" width="28" height="28"/>
+    </resources>
+</document>

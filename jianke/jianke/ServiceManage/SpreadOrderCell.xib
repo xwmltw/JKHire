@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="125" id="KGk-i7-Jjw" customClass="SpreadOrderCell">
+            <rect key="frame" x="0.0" y="0.0" width="379" height="125"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="379" height="124"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小明盒子线下商圈推广" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9bQ-bV-q6u">
+                        <rect key="frame" x="16" y="16" width="170" height="20"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.73725490199999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="订单创建于：2016/9/23" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cH5-Ws-Ep3">
+                        <rect key="frame" x="16" y="91.5" width="153" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.13725490200000001" green="0.2274509804" blue="0.31372549020000001" alpha="0.32000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="job_icon_push" translatesAutoresizingMaskIntoConstraints="NO" id="tMp-gy-WJo">
+                        <rect key="frame" x="347" y="16" width="16" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="1Cg-nG-PUU"/>
+                            <constraint firstAttribute="height" constant="16" id="VMh-b1-8cA"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wcy-fb-YAW">
+                        <rect key="frame" x="0.0" y="124" width="379" height="0.5"/>
+                        <color key="backgroundColor" red="0.9137254901960784" green="0.9137254901960784" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.69999999999999996" id="nsB-un-FeW"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="cH5-Ws-Ep3" secondAttribute="bottom" constant="16" id="1cg-f5-6de"/>
+                    <constraint firstItem="tMp-gy-WJo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="7vx-10-ChH"/>
+                    <constraint firstItem="9bQ-bV-q6u" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="JE7-0p-FVt"/>
+                    <constraint firstItem="cH5-Ws-Ep3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="OuF-2L-jrB"/>
+                    <constraint firstItem="wcy-fb-YAW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="UDs-G6-evb"/>
+                    <constraint firstAttribute="trailing" secondItem="wcy-fb-YAW" secondAttribute="trailing" id="brO-uc-Klr"/>
+                    <constraint firstAttribute="bottom" secondItem="wcy-fb-YAW" secondAttribute="bottom" id="gs0-Is-mZh"/>
+                    <constraint firstAttribute="trailing" secondItem="tMp-gy-WJo" secondAttribute="trailing" constant="16" id="h0t-wK-1ns"/>
+                    <constraint firstItem="9bQ-bV-q6u" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="hPm-0X-xMh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="labDate" destination="cH5-Ws-Ep3" id="niA-6J-ffS"/>
+                <outlet property="labTitle" destination="9bQ-bV-q6u" id="Y2x-nk-oWD"/>
+            </connections>
+            <point key="canvasLocation" x="123" y="50"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="job_icon_push" width="16" height="16"/>
+    </resources>
+</document>

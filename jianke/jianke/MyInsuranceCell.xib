@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="94" id="KGk-i7-Jjw" customClass="MyInsuranceCell">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="94"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="344" height="93"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="投保人数：666人" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iRX-NS-yqg">
+                        <rect key="frame" x="16" y="12" width="144" height="22"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="0.13333333333333333" green="0.2274509804" blue="0.31372549020000001" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="订单创建于：上辈子" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfI-ng-81s">
+                        <rect key="frame" x="16" y="60" width="129" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.1333333333" green="0.2274509804" blue="0.31372549020000001" alpha="0.32000000000000001" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="job_icon_push" translatesAutoresizingMaskIntoConstraints="NO" id="ykN-QW-1nM">
+                        <rect key="frame" x="312" y="39" width="16" height="16"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="vfI-ng-81s" secondAttribute="bottom" constant="16" id="0T9-dn-Q8R"/>
+                    <constraint firstItem="iRX-NS-yqg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="44g-Hm-VPI"/>
+                    <constraint firstItem="iRX-NS-yqg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="LNS-yN-oxh"/>
+                    <constraint firstAttribute="trailing" secondItem="ykN-QW-1nM" secondAttribute="trailing" constant="16" id="MFV-z9-75e"/>
+                    <constraint firstItem="vfI-ng-81s" firstAttribute="leading" secondItem="iRX-NS-yqg" secondAttribute="leading" id="Yf2-G2-XLd"/>
+                    <constraint firstItem="ykN-QW-1nM" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="noJ-6e-vxI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="labSubTitle" destination="vfI-ng-81s" id="cay-sC-t8S"/>
+                <outlet property="labTitle" destination="iRX-NS-yqg" id="FCo-g2-wmF"/>
+            </connections>
+            <point key="canvasLocation" x="44" y="100"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="job_icon_push" width="16" height="16"/>
+    </resources>
+</document>

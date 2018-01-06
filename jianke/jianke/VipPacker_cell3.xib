@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="81" id="KGk-i7-Jjw" customClass="VipPacker_cell3">
+            <rect key="frame" x="0.0" y="0.0" width="371" height="81"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="371" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EOb-9A-mLa">
+                        <rect key="frame" x="16" y="0.0" width="339" height="81"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="切换城市" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wa6-XK-UFI">
+                                <rect key="frame" x="16" y="30" width="70" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="job_icon_push" highlightedImage="job_icon_push" translatesAutoresizingMaskIntoConstraints="NO" id="sIA-vd-XC2">
+                                <rect key="frame" x="307" y="33" width="16" height="16"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1333333333" green="0.2274509804" blue="0.31372549020000001" alpha="0.029999999999999999" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="wa6-XK-UFI" firstAttribute="centerY" secondItem="EOb-9A-mLa" secondAttribute="centerY" id="Ydq-d7-cuI"/>
+                            <constraint firstItem="sIA-vd-XC2" firstAttribute="centerY" secondItem="EOb-9A-mLa" secondAttribute="centerY" id="nu6-0L-eLI"/>
+                            <constraint firstAttribute="trailing" secondItem="sIA-vd-XC2" secondAttribute="trailing" constant="16" id="oW9-x8-tvF"/>
+                            <constraint firstItem="wa6-XK-UFI" firstAttribute="leading" secondItem="EOb-9A-mLa" secondAttribute="leading" constant="16" id="vQ2-1L-JyI"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="EOb-9A-mLa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="2FT-zf-M8D"/>
+                    <constraint firstAttribute="bottom" secondItem="EOb-9A-mLa" secondAttribute="bottom" id="PEh-Ci-Pyp"/>
+                    <constraint firstItem="EOb-9A-mLa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="kl2-l3-qvs"/>
+                    <constraint firstAttribute="trailing" secondItem="EOb-9A-mLa" secondAttribute="trailing" constant="16" id="p0C-Uy-BAo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="57.5" y="78.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="job_icon_push" width="16" height="16"/>
+    </resources>
+</document>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="89" id="KGk-i7-Jjw" customClass="BuyJobNumCell_City">
+            <rect key="frame" x="0.0" y="0.0" width="366" height="89"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="366" height="88"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oSV-HD-mjm">
+                        <rect key="frame" x="12" y="0.0" width="342" height="89"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="招聘城市" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MFe-5H-ezj">
+                                <rect key="frame" x="256.5" y="37" width="53.5" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.1333333333" green="0.2274509804" blue="0.31372549020000001" alpha="0.32000000000000001" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="job_icon_push" highlightedImage="job_icon_push" translatesAutoresizingMaskIntoConstraints="NO" id="zlf-9c-JU9">
+                                <rect key="frame" x="310" y="36" width="16" height="16"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="招聘城市" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNr-RA-h3M">
+                                <rect key="frame" x="16" y="35" width="65.5" height="19.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <color key="textColor" red="0.1333333333" green="0.2274509804" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1333333333" green="0.2274509804" blue="0.31372549020000001" alpha="0.029999999999999999" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="MFe-5H-ezj" firstAttribute="centerY" secondItem="oSV-HD-mjm" secondAttribute="centerY" id="PRh-Z4-9JL"/>
+                            <constraint firstItem="TNr-RA-h3M" firstAttribute="leading" secondItem="oSV-HD-mjm" secondAttribute="leading" constant="16" id="fZF-Tu-sg1"/>
+                            <constraint firstItem="zlf-9c-JU9" firstAttribute="centerY" secondItem="oSV-HD-mjm" secondAttribute="centerY" id="r4i-tk-veF"/>
+                            <constraint firstAttribute="trailing" secondItem="MFe-5H-ezj" secondAttribute="trailing" constant="32" id="sFR-da-ASD"/>
+                            <constraint firstItem="TNr-RA-h3M" firstAttribute="centerY" secondItem="oSV-HD-mjm" secondAttribute="centerY" id="sc3-ks-Sq1"/>
+                            <constraint firstAttribute="trailing" secondItem="zlf-9c-JU9" secondAttribute="trailing" constant="16" id="wlF-f0-hOt"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="oSV-HD-mjm" secondAttribute="trailing" constant="12" id="8gx-Ta-kvB"/>
+                    <constraint firstAttribute="bottom" secondItem="oSV-HD-mjm" secondAttribute="bottom" id="BaS-yM-C7l"/>
+                    <constraint firstItem="oSV-HD-mjm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Uhg-Mu-A1z"/>
+                    <constraint firstItem="oSV-HD-mjm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="hj2-73-fq8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgIcon" destination="zlf-9c-JU9" id="u7h-PR-JD5"/>
+                <outlet property="labCity" destination="MFe-5H-ezj" id="D94-wO-7u1"/>
+                <outlet property="labLeftTitle" destination="TNr-RA-h3M" id="yVM-hY-43n"/>
+                <outlet property="layoutLabCityRight" destination="sFR-da-ASD" id="p9X-2P-ghZ"/>
+            </connections>
+            <point key="canvasLocation" x="56" y="82.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="job_icon_push" width="16" height="16"/>
+    </resources>
+</document>

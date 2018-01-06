@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TeamServiceHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 至 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="myC-tW-Wev">
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.13725490200000001" green="0.2274509804" blue="0.31372549020000001" alpha="0.47999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RCh-UD-6SM">
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="1" green="0.3803921569" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="02R-Ku-r09">
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.13725490200000001" green="0.2274509804" blue="0.31372549020000001" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0人" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rVH-5p-hNG">
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.13725490200000001" green="0.2274509804" blue="0.31372549020000001" alpha="0.47999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="1000" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hMe-1G-j2Y">
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="1" id="tcZ-4W-Uvk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" red="1" green="0.3803921569" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eS-7o-el3">
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.13725490200000001" green="0.2274509804" blue="0.31372549020000001" alpha="0.47999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zV6-V1-7Va">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0家我预约的团队" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJy-mJ-1uv">
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" red="0.13725490200000001" green="0.2274509804" blue="0.31372549020000001" alpha="0.32000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.9137254901960784" green="0.9137254901960784" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="EJy-mJ-1uv" firstAttribute="leading" secondItem="zV6-V1-7Va" secondAttribute="leading" constant="16" id="13E-o8-3m5"/>
+                        <constraint firstItem="EJy-mJ-1uv" firstAttribute="centerY" secondItem="zV6-V1-7Va" secondAttribute="centerY" id="6Dp-M8-JDb"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="EJy-mJ-1uv" secondAttribute="trailing" constant="16" id="aqf-1m-H2M"/>
+                        <constraint firstAttribute="height" constant="28" id="w9P-JR-0WV"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="02R-Ku-r09" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="0WH-hi-m76"/>
+                <constraint firstItem="myC-tW-Wev" firstAttribute="top" secondItem="02R-Ku-r09" secondAttribute="bottom" constant="8" id="1tg-QH-TKo"/>
+                <constraint firstItem="hMe-1G-j2Y" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="4Zm-a4-1j6"/>
+                <constraint firstItem="02R-Ku-r09" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="hMe-1G-j2Y" secondAttribute="leading" constant="-10" id="6hJ-hW-KQX"/>
+                <constraint firstItem="rVH-5p-hNG" firstAttribute="leading" secondItem="7eS-7o-el3" secondAttribute="trailing" constant="20" id="8M1-Jl-Fkt"/>
+                <constraint firstItem="RCh-UD-6SM" firstAttribute="top" secondItem="hMe-1G-j2Y" secondAttribute="top" constant="2" id="GM1-dz-kg1"/>
+                <constraint firstItem="02R-Ku-r09" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="GcK-AU-ROj"/>
+                <constraint firstAttribute="trailing" secondItem="hMe-1G-j2Y" secondAttribute="trailing" constant="16" id="TOq-CU-w4K"/>
+                <constraint firstItem="zV6-V1-7Va" firstAttribute="top" secondItem="myC-tW-Wev" secondAttribute="bottom" constant="16" id="WZE-DE-e44"/>
+                <constraint firstItem="RCh-UD-6SM" firstAttribute="trailing" secondItem="hMe-1G-j2Y" secondAttribute="leading" id="YwP-M4-hgG"/>
+                <constraint firstItem="zV6-V1-7Va" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="atd-QJ-p1h"/>
+                <constraint firstItem="rVH-5p-hNG" firstAttribute="top" secondItem="myC-tW-Wev" secondAttribute="top" id="hTi-lx-dJk"/>
+                <constraint firstItem="myC-tW-Wev" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="iN4-sv-RQ2"/>
+                <constraint firstItem="7eS-7o-el3" firstAttribute="top" secondItem="myC-tW-Wev" secondAttribute="top" id="u2Q-cu-PPb"/>
+                <constraint firstAttribute="trailing" secondItem="zV6-V1-7Va" secondAttribute="trailing" id="vmI-Lm-kpe"/>
+                <constraint firstItem="7eS-7o-el3" firstAttribute="leading" secondItem="myC-tW-Wev" secondAttribute="trailing" constant="25" id="yPX-Lf-wRs"/>
+            </constraints>
+            <connections>
+                <outlet property="labAddress" destination="7eS-7o-el3" id="cjM-ug-vZX"/>
+                <outlet property="labDate" destination="myC-tW-Wev" id="ghR-5M-7hd"/>
+                <outlet property="labDes" destination="EJy-mJ-1uv" id="gos-6P-D33"/>
+                <outlet property="labInviteNum" destination="rVH-5p-hNG" id="6zc-RV-TeL"/>
+                <outlet property="labSalary" destination="hMe-1G-j2Y" id="fJO-O1-eIq"/>
+                <outlet property="labTitle" destination="02R-Ku-r09" id="hJR-6s-DgS"/>
+            </connections>
+        </view>
+    </objects>
+</document>

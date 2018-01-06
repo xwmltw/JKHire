@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="207" id="KGk-i7-Jjw" customClass="PersonalServiceCell">
+            <rect key="frame" x="0.0" y="0.0" width="458" height="207"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="458" height="206"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LhB-4w-Ogb">
+                        <rect key="frame" x="8" y="0.0" width="219" height="156"/>
+                        <color key="backgroundColor" red="0.96470588235294119" green="0.96862745098039216" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="156" id="KGk-UV-9mb"/>
+                        </constraints>
+                        <state key="normal" image="Service_find_lady"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAU-MF-pdN">
+                        <rect key="frame" x="342.5" y="80" width="107.5" height="76"/>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.96862745100000003" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <state key="normal" image="service_find_actor"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWf-rP-r2i">
+                        <rect key="frame" x="231" y="80" width="107.5" height="76"/>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.96862745100000003" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <state key="normal" image="service_find_model"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ryD-mI-0Vw">
+                        <rect key="frame" x="231" y="0.0" width="219" height="76"/>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.96862745100000003" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="76" id="auB-pY-auG"/>
+                        </constraints>
+                        <state key="normal" image="service_find_reporter"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="LhB-4w-Ogb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="A39-uB-BC4"/>
+                    <constraint firstAttribute="trailing" secondItem="ryD-mI-0Vw" secondAttribute="trailing" constant="8" id="CWF-iF-MH8"/>
+                    <constraint firstItem="LhB-4w-Ogb" firstAttribute="trailing" secondItem="ryD-mI-0Vw" secondAttribute="leading" constant="-4" id="EZh-ah-Xcn"/>
+                    <constraint firstAttribute="trailing" secondItem="NAU-MF-pdN" secondAttribute="trailing" constant="8" id="Efx-gd-th7"/>
+                    <constraint firstItem="IWf-rP-r2i" firstAttribute="width" secondItem="NAU-MF-pdN" secondAttribute="width" id="Fup-rz-Uz7"/>
+                    <constraint firstItem="NAU-MF-pdN" firstAttribute="top" secondItem="IWf-rP-r2i" secondAttribute="top" id="Rlo-Ty-kNh"/>
+                    <constraint firstItem="NAU-MF-pdN" firstAttribute="height" secondItem="IWf-rP-r2i" secondAttribute="height" id="TbF-N9-Ka6"/>
+                    <constraint firstItem="LhB-4w-Ogb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="VmM-PH-XbG"/>
+                    <constraint firstItem="LhB-4w-Ogb" firstAttribute="width" secondItem="ryD-mI-0Vw" secondAttribute="width" id="c21-W8-oey"/>
+                    <constraint firstItem="IWf-rP-r2i" firstAttribute="top" secondItem="ryD-mI-0Vw" secondAttribute="bottom" constant="4" id="fLc-mw-IG8"/>
+                    <constraint firstItem="NAU-MF-pdN" firstAttribute="leading" secondItem="IWf-rP-r2i" secondAttribute="trailing" constant="4" id="flz-DG-66x"/>
+                    <constraint firstItem="ryD-mI-0Vw" firstAttribute="height" secondItem="IWf-rP-r2i" secondAttribute="height" id="kf0-Ui-0FJ"/>
+                    <constraint firstItem="ryD-mI-0Vw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="yhD-Qh-k1R"/>
+                    <constraint firstItem="IWf-rP-r2i" firstAttribute="leading" secondItem="ryD-mI-0Vw" secondAttribute="leading" id="zbV-4V-kyO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.9137254901960784" green="0.9137254901960784" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="btnActor" destination="NAU-MF-pdN" id="m6m-ba-i2M"/>
+                <outlet property="btnLady" destination="LhB-4w-Ogb" id="Rfm-wq-y1Z"/>
+                <outlet property="btnModel" destination="IWf-rP-r2i" id="kRi-BA-a4U"/>
+                <outlet property="btnReporter" destination="ryD-mI-0Vw" id="w3m-fO-eCL"/>
+            </connections>
+            <point key="canvasLocation" x="94" y="133.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Service_find_lady" width="145" height="139"/>
+        <image name="service_find_actor" width="87" height="81"/>
+        <image name="service_find_model" width="94" height="81"/>
+        <image name="service_find_reporter" width="98" height="45"/>
+    </resources>
+</document>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="316" id="KGk-i7-Jjw" customClass="HiringJobNumCell2">
+            <rect key="frame" x="0.0" y="0.0" width="475" height="316"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="475" height="315"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="如需增加在招岗位数，您可以选择" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZP-VN-W8m">
+                        <rect key="frame" x="16" y="16" width="260" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.1333333333" green="0.2274509804" blue="0.31372549020000001" alpha="0.47999999999999998" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvV-la-9pU">
+                        <rect key="frame" x="16" y="53" width="443" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="bz8-Ai-MUR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" title="购买岗位数" image="v320_buy_vip_icon">
+                            <color key="titleColor" red="0.1333333333" green="0.2274509804" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m1s-5R-Qg0">
+                        <rect key="frame" x="16" y="133" width="443" height="166"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="通告" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LAO-UL-LQ0">
+                                <rect key="frame" x="16" y="16" width="29" height="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.1333333333" green="0.2274509804" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="为更好的保障广大雇主的权益，避免部分中介雇主滥发无效或相同性质岗位，平台岗位发布特做如下调整：单个账号在单个城市仅允许同时发布1个招聘岗位。平台将为发布的岗位提供更多流量支持，保证岗位快速有序的更新。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rD-u7-wc8">
+                                <rect key="frame" x="16" y="37" width="411" height="67"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.1333333333" green="0.2274509804" blue="0.31372549020000001" alpha="0.47999999999999998" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1333333333" green="0.2274509804" blue="0.31372549020000001" alpha="0.029999999999999999" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="LAO-UL-LQ0" firstAttribute="leading" secondItem="m1s-5R-Qg0" secondAttribute="leading" constant="16" id="jxE-kU-Sin"/>
+                            <constraint firstItem="LAO-UL-LQ0" firstAttribute="top" secondItem="m1s-5R-Qg0" secondAttribute="top" constant="16" id="mWS-hC-QZi"/>
+                            <constraint firstAttribute="trailing" secondItem="1rD-u7-wc8" secondAttribute="trailing" constant="16" id="u43-hy-xuo"/>
+                            <constraint firstItem="1rD-u7-wc8" firstAttribute="top" secondItem="LAO-UL-LQ0" secondAttribute="bottom" constant="4" id="xPl-UF-tg3"/>
+                            <constraint firstItem="1rD-u7-wc8" firstAttribute="leading" secondItem="LAO-UL-LQ0" secondAttribute="leading" id="yz2-3Q-nIm"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x4O-KL-yVi">
+                        <rect key="frame" x="0.0" y="0.0" width="475" height="1"/>
+                        <color key="backgroundColor" red="0.91372549020000005" green="0.91372549020000005" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.69999999999999996" id="Yut-Zg-BAo"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="job_icon_push" highlightedImage="job_icon_push" translatesAutoresizingMaskIntoConstraints="NO" id="gPg-73-xwJ">
+                        <rect key="frame" x="443" y="69" width="16" height="16"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="x4O-KL-yVi" secondAttribute="trailing" id="0nC-t2-Aai"/>
+                    <constraint firstItem="MZP-VN-W8m" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="9fM-zB-eMx"/>
+                    <constraint firstItem="gPg-73-xwJ" firstAttribute="trailing" secondItem="uvV-la-9pU" secondAttribute="trailing" id="IzR-sP-Vaa"/>
+                    <constraint firstItem="MZP-VN-W8m" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="RVv-cu-Pi5"/>
+                    <constraint firstItem="m1s-5R-Qg0" firstAttribute="trailing" secondItem="uvV-la-9pU" secondAttribute="trailing" id="RwI-nF-BXh"/>
+                    <constraint firstItem="m1s-5R-Qg0" firstAttribute="top" secondItem="uvV-la-9pU" secondAttribute="bottom" constant="32" id="SW6-oV-F0N"/>
+                    <constraint firstAttribute="bottom" secondItem="m1s-5R-Qg0" secondAttribute="bottom" constant="16" id="awE-pA-5iT"/>
+                    <constraint firstItem="uvV-la-9pU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="hJ3-Fv-GHe"/>
+                    <constraint firstItem="x4O-KL-yVi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ijw-5U-Lae"/>
+                    <constraint firstItem="x4O-KL-yVi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ky6-7B-zjO"/>
+                    <constraint firstItem="m1s-5R-Qg0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="u6M-RE-peS"/>
+                    <constraint firstAttribute="trailing" secondItem="uvV-la-9pU" secondAttribute="trailing" constant="16" id="veJ-V7-a5t"/>
+                    <constraint firstItem="uvV-la-9pU" firstAttribute="top" secondItem="MZP-VN-W8m" secondAttribute="bottom" constant="16" id="wWm-Hi-PV7"/>
+                    <constraint firstItem="gPg-73-xwJ" firstAttribute="centerY" secondItem="uvV-la-9pU" secondAttribute="centerY" id="y27-Ug-lZR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnBuyJob" destination="uvV-la-9pU" id="sJa-Nd-jed"/>
+            </connections>
+            <point key="canvasLocation" x="102.5" y="188"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="job_icon_push" width="16" height="16"/>
+        <image name="v320_buy_vip_icon" width="48" height="48"/>
+    </resources>
+</document>

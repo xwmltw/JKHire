@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="122" id="KGk-i7-Jjw" customClass="HistoryTeamJobCell">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="122"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="390" height="121"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" text="礼仪" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="geq-Qg-d9x">
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="1" id="80R-sr-Gc1"/>
+                            <constraint firstAttribute="height" constant="22" id="khd-2z-k90"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.73725490199999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="2016秋季车展奔驰展台礼仪" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AIY-gP-XWO">
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.73725490199999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已预约2家服务商" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mwg-ch-R8q">
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.1333333333" green="0.2274509804" blue="0.31372549020000001" alpha="0.47999999999999998" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCS-dU-qPc">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="55" id="5mN-Ak-IJm"/>
+                            <constraint firstAttribute="height" constant="26" id="F4U-SA-IrY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="预约">
+                            <color key="titleColor" red="0.13333333333333333" green="0.22745098039215686" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="BtnInviteOnClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="CQ2-EX-3Ln"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="订单创建于：2016/9/23" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Wk-9f-GcU">
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.1333333333" green="0.2274509804" blue="0.31372549020000001" alpha="0.47999999999999998" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info_icon_push_2" translatesAutoresizingMaskIntoConstraints="NO" id="60D-8h-5cp">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="5sV-Ov-4CO"/>
+                            <constraint firstAttribute="width" constant="16" id="thE-Vh-DcK"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已查看" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEj-L5-XQk">
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <color key="textColor" red="0.16862745098039217" green="0.29411764705882354" blue="0.39215686274509803" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yFS-03-Wn5">
+                        <color key="backgroundColor" red="0.9137254901960784" green="0.9137254901960784" blue="0.9137254901960784" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.69999999999999996" id="mxF-hn-4mc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="jCS-dU-qPc" secondAttribute="trailing" constant="16" id="0Dr-1f-0nb"/>
+                    <constraint firstAttribute="bottom" secondItem="yFS-03-Wn5" secondAttribute="bottom" id="2bN-Dh-YtE"/>
+                    <constraint firstAttribute="bottom" secondItem="QEj-L5-XQk" secondAttribute="bottom" constant="16" id="6DL-SF-lWv"/>
+                    <constraint firstAttribute="trailing" secondItem="60D-8h-5cp" secondAttribute="trailing" constant="16" id="6yJ-a7-3VV"/>
+                    <constraint firstItem="60D-8h-5cp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="AKZ-Jv-wfb"/>
+                    <constraint firstItem="AIY-gP-XWO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="Dv7-lZ-sNR"/>
+                    <constraint firstItem="yFS-03-Wn5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="HYv-zY-tAf"/>
+                    <constraint firstItem="jCS-dU-qPc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="Jvp-wL-w2R"/>
+                    <constraint firstAttribute="bottom" secondItem="9Wk-9f-GcU" secondAttribute="bottom" constant="16" id="Lkd-Be-OPH"/>
+                    <constraint firstItem="AIY-gP-XWO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="V4R-nV-TeZ"/>
+                    <constraint firstItem="geq-Qg-d9x" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Zev-Bi-g1t"/>
+                    <constraint firstItem="geq-Qg-d9x" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="aPa-sv-w8S"/>
+                    <constraint firstAttribute="trailing" secondItem="AIY-gP-XWO" secondAttribute="trailing" constant="66" id="dvO-OS-hbd"/>
+                    <constraint firstItem="mwg-ch-R8q" firstAttribute="top" secondItem="AIY-gP-XWO" secondAttribute="bottom" constant="8" id="eKq-x2-02C"/>
+                    <constraint firstAttribute="trailing" secondItem="yFS-03-Wn5" secondAttribute="trailing" id="j44-Jm-csj"/>
+                    <constraint firstItem="QEj-L5-XQk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="k9H-zn-wd7"/>
+                    <constraint firstItem="mwg-ch-R8q" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="obD-2k-zN9"/>
+                    <constraint firstAttribute="trailing" secondItem="9Wk-9f-GcU" secondAttribute="trailing" constant="16" id="yx1-o2-QRy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="botLine" destination="yFS-03-Wn5" id="3zN-pm-FAo"/>
+                <outlet property="btnInvite" destination="jCS-dU-qPc" id="H7b-jg-JkK"/>
+                <outlet property="imgPush" destination="60D-8h-5cp" id="gpM-UL-IXH"/>
+                <outlet property="labCreate" destination="9Wk-9f-GcU" id="38e-uc-5fa"/>
+                <outlet property="labInvite" destination="mwg-ch-R8q" id="ioM-Ck-jpm"/>
+                <outlet property="labTag" destination="geq-Qg-d9x" id="Td3-Cf-Pf4"/>
+                <outlet property="labTitle" destination="AIY-gP-XWO" id="GXw-6Y-5wS"/>
+                <outlet property="labView" destination="QEj-L5-XQk" id="U5O-4z-LK7"/>
+                <outlet property="layoutLabTitleLeft" destination="V4R-nV-TeZ" id="1cd-Qz-Ph9"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="104"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="info_icon_push_2" width="28" height="28"/>
+    </resources>
+</document>

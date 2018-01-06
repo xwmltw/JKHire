@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="fa5-xc-gz4" customClass="ResumeRedBaoView">
+            <rect key="frame" x="0.0" y="0.0" width="288" height="408"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resume_redbao" translatesAutoresizingMaskIntoConstraints="NO" id="tUR-c6-Ejb">
+                    <rect key="frame" x="0.0" y="0.0" width="288" height="408"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. 简历数已放进您的账户,可在 [我的人才] 页进行查看;" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UrY-e7-JEQ">
+                    <rect key="frame" x="24" y="235" width="240" height="33.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.9882352941176471" green="0.90588235294117647" blue="0.65490196078431373" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. 简历数可用于获取兼客的联系方式；" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vcl-3k-MgW">
+                    <rect key="frame" x="24" y="276.5" width="240" height="33.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.98823529409999999" green="0.90588235289999997" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3. 简历数自获赠日起1年内有效，逾期清零；" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6x-j1-F8H">
+                    <rect key="frame" x="24" y="318" width="240" height="33.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.98823529409999999" green="0.90588235289999997" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4. 账户没有剩余简历数时，查看兼客联系方式 需要付费" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qTk-ma-8pC">
+                    <rect key="frame" x="24" y="359.5" width="240" height="33.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.98823529409999999" green="0.90588235289999997" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="恭喜你,获得简历数" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S5f-Mg-KCZ">
+                    <rect key="frame" x="93" y="141" width="102" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.82745098039215681" green="0.74509803921568629" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0XG-0Z-1wQ">
+                    <rect key="frame" x="112" y="156" width="32" height="63"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="52"/>
+                    <color key="textColor" red="1" green="0.38039215686274508" blue="0.55686274509803924" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="份" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nwE-cC-56o">
+                    <rect key="frame" x="147" y="177" width="19" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="1" green="0.3803921569" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Svq-1l-VAk">
+                    <rect key="frame" x="134" y="17" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="JKd-UT-Uxv"/>
+                        <constraint firstAttribute="height" constant="20" id="clx-Kv-ct4"/>
+                    </constraints>
+                    <state key="normal" image="v3_public_close"/>
+                    <connections>
+                        <action selector="cancelBtn:" destination="fa5-xc-gz4" eventType="touchUpInside" id="nAg-CU-CkJ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="S5f-Mg-KCZ" firstAttribute="centerX" secondItem="fa5-xc-gz4" secondAttribute="centerX" id="0AB-qK-j4J"/>
+                <constraint firstItem="UrY-e7-JEQ" firstAttribute="leading" secondItem="fa5-xc-gz4" secondAttribute="leading" constant="24" id="0qF-q1-Aoy"/>
+                <constraint firstAttribute="bottom" secondItem="tUR-c6-Ejb" secondAttribute="bottom" id="1W9-B4-qcB"/>
+                <constraint firstItem="Vcl-3k-MgW" firstAttribute="leading" secondItem="fa5-xc-gz4" secondAttribute="leading" constant="24" id="6Ma-QK-JL4"/>
+                <constraint firstAttribute="trailing" secondItem="UrY-e7-JEQ" secondAttribute="trailing" constant="24" id="703-2r-Tmz"/>
+                <constraint firstAttribute="trailing" secondItem="j6x-j1-F8H" secondAttribute="trailing" constant="24" id="B48-ou-W1g"/>
+                <constraint firstItem="Svq-1l-VAk" firstAttribute="centerX" secondItem="fa5-xc-gz4" secondAttribute="centerX" id="C27-Zr-lb3"/>
+                <constraint firstItem="nwE-cC-56o" firstAttribute="leading" secondItem="0XG-0Z-1wQ" secondAttribute="trailing" constant="3" id="C7D-I2-Z0R"/>
+                <constraint firstItem="0XG-0Z-1wQ" firstAttribute="trailing" secondItem="fa5-xc-gz4" secondAttribute="centerX" id="CZl-Xp-0E9"/>
+                <constraint firstItem="j6x-j1-F8H" firstAttribute="leading" secondItem="fa5-xc-gz4" secondAttribute="leading" constant="24" id="HQo-J9-QTb"/>
+                <constraint firstAttribute="trailing" secondItem="qTk-ma-8pC" secondAttribute="trailing" constant="24" id="LAa-rb-z3h"/>
+                <constraint firstItem="nwE-cC-56o" firstAttribute="centerY" secondItem="0XG-0Z-1wQ" secondAttribute="centerY" id="McS-9O-Li8"/>
+                <constraint firstItem="tUR-c6-Ejb" firstAttribute="top" secondItem="fa5-xc-gz4" secondAttribute="top" id="PxB-LZ-Vyy"/>
+                <constraint firstItem="qTk-ma-8pC" firstAttribute="leading" secondItem="fa5-xc-gz4" secondAttribute="leading" constant="24" id="WCB-QW-KZZ"/>
+                <constraint firstItem="Vcl-3k-MgW" firstAttribute="top" secondItem="UrY-e7-JEQ" secondAttribute="bottom" constant="8" id="XpS-Hg-6aU"/>
+                <constraint firstItem="0XG-0Z-1wQ" firstAttribute="centerY" secondItem="fa5-xc-gz4" secondAttribute="centerY" constant="-16.5" id="Y8O-az-bKA"/>
+                <constraint firstItem="qTk-ma-8pC" firstAttribute="top" secondItem="j6x-j1-F8H" secondAttribute="bottom" constant="8" id="YYl-tB-O6P"/>
+                <constraint firstAttribute="bottom" secondItem="qTk-ma-8pC" secondAttribute="bottom" constant="15" id="eOg-ZI-OYB"/>
+                <constraint firstItem="tUR-c6-Ejb" firstAttribute="leading" secondItem="fa5-xc-gz4" secondAttribute="leading" id="h3j-WL-dxS"/>
+                <constraint firstAttribute="trailing" secondItem="Vcl-3k-MgW" secondAttribute="trailing" constant="24" id="niN-5g-vQS"/>
+                <constraint firstItem="j6x-j1-F8H" firstAttribute="top" secondItem="Vcl-3k-MgW" secondAttribute="bottom" constant="8" id="nlu-Oq-WGS"/>
+                <constraint firstAttribute="trailing" secondItem="tUR-c6-Ejb" secondAttribute="trailing" id="qqg-2O-cnp"/>
+                <constraint firstItem="Svq-1l-VAk" firstAttribute="top" secondItem="fa5-xc-gz4" secondAttribute="top" constant="17" id="wmP-AB-jhw"/>
+                <constraint firstItem="0XG-0Z-1wQ" firstAttribute="top" secondItem="S5f-Mg-KCZ" secondAttribute="bottom" id="z9g-dB-IZD"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lab1" destination="UrY-e7-JEQ" id="doi-gk-5Sr"/>
+                <outlet property="lab2" destination="Vcl-3k-MgW" id="SjC-rL-8Rg"/>
+                <outlet property="lab3" destination="qTk-ma-8pC" id="Kum-sO-HbM"/>
+                <outlet property="lab4" destination="j6x-j1-F8H" id="lHD-hg-m1X"/>
+                <outlet property="layout3" destination="eOg-ZI-OYB" id="KUa-fT-Eqp"/>
+                <outlet property="redbaoNum" destination="0XG-0Z-1wQ" id="Vll-S3-fmT"/>
+            </connections>
+            <point key="canvasLocation" x="-14" y="-346"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="resume_redbao" width="292" height="427"/>
+        <image name="v3_public_close" width="28" height="28"/>
+    </resources>
+</document>

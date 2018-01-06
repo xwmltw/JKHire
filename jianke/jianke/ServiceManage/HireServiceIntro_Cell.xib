@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="174" id="KGk-i7-Jjw" customClass="HireServiceIntro_Cell">
+            <rect key="frame" x="0.0" y="0.0" width="425" height="174"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="425" height="173"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="clj-KO-Juv">
+                        <rect key="frame" x="12" y="0.0" width="401" height="173"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="v320_hire_icon_1" translatesAutoresizingMaskIntoConstraints="NO" id="67S-7x-aLL">
+                                <rect key="frame" x="249" y="5" width="152" height="164"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="兼职推广" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lcn-ng-PtF">
+                                <rect key="frame" x="12" y="32" width="98" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.13333333333333333" green="0.22745098039215686" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="刷新、置顶、推送推广刷新、置顶、推送推广刷新、置顶、推送推广刷新、置顶、推送推广" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oj1-y3-oG9">
+                                <rect key="frame" x="12" y="65" width="237" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.1333333333" green="0.2274509804" blue="0.31372549020000001" alpha="0.47999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="岗位曝光量提升2-5倍!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cnF-8O-4Ae">
+                                <rect key="frame" x="12" y="136" width="132" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.73725490199999999" blue="0.83137254900000002" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="OIv-U1-aDe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.73725490199999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Lcn-ng-PtF" firstAttribute="leading" secondItem="clj-KO-Juv" secondAttribute="leading" constant="12" id="FcC-j7-42H"/>
+                            <constraint firstItem="Oj1-y3-oG9" firstAttribute="trailing" secondItem="67S-7x-aLL" secondAttribute="leading" id="N9G-Vd-0PU"/>
+                            <constraint firstItem="67S-7x-aLL" firstAttribute="centerY" secondItem="clj-KO-Juv" secondAttribute="centerY" id="TsI-kZ-Kja"/>
+                            <constraint firstItem="cnF-8O-4Ae" firstAttribute="top" secondItem="Oj1-y3-oG9" secondAttribute="bottom" constant="24" id="dGZ-eB-K18"/>
+                            <constraint firstItem="Oj1-y3-oG9" firstAttribute="top" secondItem="Lcn-ng-PtF" secondAttribute="bottom" constant="4" id="ezQ-sx-adA"/>
+                            <constraint firstItem="Lcn-ng-PtF" firstAttribute="top" secondItem="clj-KO-Juv" secondAttribute="top" constant="32" id="hjD-DK-hB6"/>
+                            <constraint firstItem="Oj1-y3-oG9" firstAttribute="leading" secondItem="Lcn-ng-PtF" secondAttribute="leading" id="kco-Xq-1Fw"/>
+                            <constraint firstAttribute="trailing" secondItem="67S-7x-aLL" secondAttribute="trailing" id="nLA-ch-RJJ"/>
+                            <constraint firstItem="cnF-8O-4Ae" firstAttribute="leading" secondItem="Lcn-ng-PtF" secondAttribute="leading" id="pwA-OK-biU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="clj-KO-Juv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="2iy-bV-RXu"/>
+                    <constraint firstItem="clj-KO-Juv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="G5F-4U-7Jw"/>
+                    <constraint firstAttribute="bottom" secondItem="clj-KO-Juv" secondAttribute="bottom" id="bRw-k5-n8z"/>
+                    <constraint firstAttribute="trailing" secondItem="clj-KO-Juv" secondAttribute="trailing" constant="12" id="sho-SC-Mrh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgDes" destination="67S-7x-aLL" id="wjn-0V-OTW"/>
+                <outlet property="labDes" destination="cnF-8O-4Ae" id="3vh-q0-Hsa"/>
+                <outlet property="labSubTitle" destination="Oj1-y3-oG9" id="e2s-BU-lyM"/>
+                <outlet property="labTitle" destination="Lcn-ng-PtF" id="63w-iG-j2V"/>
+            </connections>
+            <point key="canvasLocation" x="85.5" y="147"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="v320_hire_icon_1" width="152" height="164"/>
+    </resources>
+</document>

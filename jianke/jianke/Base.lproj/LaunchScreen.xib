@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="v112_screen_bg" translatesAutoresizingMaskIntoConstraints="NO" id="yrh-WD-aYX">
+                    <rect key="frame" x="221" y="180" width="159" height="120"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen_youpinLogo" translatesAutoresizingMaskIntoConstraints="NO" id="gOF-9w-B5X">
+                    <rect key="frame" x="222" y="532" width="156" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="BZt-a9-vgw"/>
+                        <constraint firstAttribute="width" constant="156" id="zg7-d2-fzO"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="gOF-9w-B5X" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bER-FI-jOa"/>
+                <constraint firstItem="yrh-WD-aYX" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-60" id="bpM-46-nLS"/>
+                <constraint firstItem="yrh-WD-aYX" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="fSH-zt-AZC"/>
+                <constraint firstAttribute="bottom" secondItem="gOF-9w-B5X" secondAttribute="bottom" constant="32" id="qg5-hP-AgQ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LaunchScreen_youpinLogo" width="156" height="36"/>
+        <image name="v112_screen_bg" width="159" height="120"/>
+    </resources>
+</document>

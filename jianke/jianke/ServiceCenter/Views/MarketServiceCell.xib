@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="124" id="KGk-i7-Jjw" customClass="MarketServiceCell">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="124"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="374" height="123"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jhk-8D-m6E">
+                        <rect key="frame" x="8" y="0.0" width="358" height="123.5"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="irr-zK-w8a">
+                                <rect key="frame" x="174.5" y="0.0" width="181.5" height="123.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" image="Service_market_xiong"/>
+                                <connections>
+                                    <action selector="rightBtnOnClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="fSr-1e-45G"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aQQ-AG-rU3">
+                                <rect key="frame" x="172.5" y="49" width="1" height="26"/>
+                                <color key="backgroundColor" red="0.9137254901960784" green="0.9137254901960784" blue="0.9137254901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="nYu-YE-xVT"/>
+                                    <constraint firstAttribute="width" constant="1" id="rGI-6T-J6A"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4an-SA-O9u">
+                                <rect key="frame" x="-6" y="0.0" width="181.5" height="123.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" image="Service_market_zhongbao"/>
+                                <connections>
+                                    <action selector="LeftBtnOnClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ke0-3F-yfv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.96862745100000003" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="4an-SA-O9u" firstAttribute="width" secondItem="irr-zK-w8a" secondAttribute="width" id="IWD-iC-eLW"/>
+                            <constraint firstItem="aQQ-AG-rU3" firstAttribute="centerY" secondItem="jhk-8D-m6E" secondAttribute="centerY" id="P6J-uy-Hdz"/>
+                            <constraint firstAttribute="trailing" secondItem="irr-zK-w8a" secondAttribute="trailing" constant="2" id="QfS-wE-N1E"/>
+                            <constraint firstItem="aQQ-AG-rU3" firstAttribute="centerX" secondItem="jhk-8D-m6E" secondAttribute="centerX" constant="-6" id="UGF-i5-GSq"/>
+                            <constraint firstAttribute="bottom" secondItem="irr-zK-w8a" secondAttribute="bottom" id="Zvq-ft-LeZ"/>
+                            <constraint firstItem="irr-zK-w8a" firstAttribute="top" secondItem="jhk-8D-m6E" secondAttribute="top" id="elL-DW-bSK"/>
+                            <constraint firstItem="4an-SA-O9u" firstAttribute="trailing" secondItem="irr-zK-w8a" secondAttribute="leading" constant="1" id="fKF-Hw-cHK"/>
+                            <constraint firstItem="4an-SA-O9u" firstAttribute="top" secondItem="jhk-8D-m6E" secondAttribute="top" id="hR0-0a-4Nw"/>
+                            <constraint firstAttribute="bottom" secondItem="4an-SA-O9u" secondAttribute="bottom" id="q6M-LQ-jh5"/>
+                            <constraint firstItem="4an-SA-O9u" firstAttribute="leading" secondItem="jhk-8D-m6E" secondAttribute="leading" constant="-6" id="vIA-Nc-Qca"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jhk-8D-m6E" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="MAi-Ez-kDG"/>
+                    <constraint firstAttribute="bottom" secondItem="jhk-8D-m6E" secondAttribute="bottom" id="ca1-7K-DSt"/>
+                    <constraint firstItem="jhk-8D-m6E" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="gjG-4s-7RF"/>
+                    <constraint firstAttribute="trailing" secondItem="jhk-8D-m6E" secondAttribute="trailing" constant="8" id="jvU-er-E1R"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="77" y="92"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Service_market_xiong" width="152" height="41"/>
+        <image name="Service_market_zhongbao" width="142" height="40"/>
+    </resources>
+</document>
